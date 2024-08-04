@@ -1,0 +1,1 @@
+# SearXNG-Remove-Specified-Languages-for-Japanese
