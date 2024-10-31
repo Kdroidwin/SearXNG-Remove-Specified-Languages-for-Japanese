@@ -2,7 +2,7 @@
 // @name     SearXNG Remove Specified Languages for Japanese
 // @name:tr  SearXNG'de Belirtilen Dilleri Kaldır
 // @namespace
-// @version  1
+// @version  1.1
 // @grant    none
 // @match    https://search.inetol.net/search*
 // @match    https://priv.au/search*
@@ -23,7 +23,7 @@ var languagesToRemove = ["af", "ca", "ca-ES", "da","da-DK", "de", "de-AT" ,"de-C
   "pt-PT", "ro", "ro-RO", "sk", "sl", "fi", "fi-FI", "sv", "sv-SE", "vi", "vi-VN",
   "cs", "cs-CZ", "el", "el-GR", "be", "bg", "bg-BG", "ru", "ru-RU", "uk", "uk-UA",
   "tr", "tr-TR", "he", "ar", "fa", "mr", "hi", "ta", "kn", "ml", "th", "th-TH",
-   "zh-TW", "zh-HK","ur","ar-SA", "zh-CN", "ko", "ko-KR"];
+   "zh-TW", "zh-HK","ur","ar-SA", "zh-CN", "ko", "ko-KR", "cy", "ga", "gd", "sq"];
 var select = document.getElementById("language");
 
 function deleteSpecifiedLanguages() {
